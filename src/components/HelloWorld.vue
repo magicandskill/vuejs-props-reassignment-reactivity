@@ -1,8 +1,5 @@
 <script setup lang="ts">
-const props = defineProps(['text','count'])
-
-const text = props.text
-const count = props.count
+const { text, count } = defineProps(['text','count'])
 </script>
 
 <template>
